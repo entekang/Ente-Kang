@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ente-Kang"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - icon: github
+        href: https://github.com/entekang
+      - icon: twitter
+        href: https://twitter.com/entekang
+      - href: blog.qmd
+        text: Blog
+
+format:
+  html:
+    theme: Vapor
+    css: styles.css
+    toc: true
+
+editor: visual
+
+navbar:
+  right:
+    - href: index.qmd
+      text: Home
+    - icon: github
+      href: https://github.com/entekang
+    - icon: twitter
+      href: https://twitter.com/entekang
+    - href: posts/blog1/index.qmd
+      text: Blog
+
